@@ -1,0 +1,160 @@
+body{
+    background-color: #c8d5c9;
+}
+
+.header
+{
+    background-color: #EDDBD0;
+}
+
+body{
+    margin: 0;
+    background-color: #c8d5c9 ;
+}
+
+.title{
+text-align: center;
+}
+
+.menu
+{
+    background-color:#384837;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 1%;
+}
+
+/* .playNow a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ullistmenu
+{
+    list-style: none;
+    display: flex;
+}
+
+.listmenu{
+    list-style-type: none;
+    position: relative;
+    flex: 1;
+    padding: 0.5em;
+    cursor: pointer;
+    list-style: none;
+}
+
+.listmenu > li > a
+{
+    list-style: none;
+}
+
+.allmenu{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    display: none;
+    z-index: 3;
+}
+
+.allmenu a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.allmenu b{
+    
+    color: white;
+}
+
+.allmenu > li{
+    background-color:  grey;
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.allmenu > li:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+} */
+
+.logo img
+{
+    width : "90px";
+    height : "90px";
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ullistmenu
+{
+    list-style: none;
+    display: flex;
+}
+
+.listmenu{
+    
+    position: relative;
+    flex: 1;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.allmenu{
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    display: none;
+    z-index: 3;
+}
+
+.allmenu a{
+    text-decoration: none;
+}
+
+.allmenu b{
+    color: white;
+}
+
+.allmenu > li{
+    background-color:  grey;
+    padding: 0.5em;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.allmenu > li:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.listmenu:hover > .allmenu{
+    display: block;
+}
+
+
+button
+{
+    width: 100%;
+}
